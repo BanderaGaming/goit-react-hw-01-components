@@ -1,5 +1,6 @@
 import css from "./Statistics.module.css";
 
+
 export function Statistics({ stats, title }) {
   return <section className={css.stats}>
     {title && <h2 className={css.title}>{title}</h2>}
